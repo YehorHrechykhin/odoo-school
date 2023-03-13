@@ -19,12 +19,16 @@
     'data': [
         'security/ir.model.access.csv',
         'data/res_partner_data.xml',
+        'data/library_book_category_data.xml',
         'views/library_book_menus.xml',
         'views/library_book_views.xml',
+        'views/library_book_category.xml',
     ],
     'demo': [
         'data/res_partner_demo.xml',
         'data/res_partner_bank_demo.xml',
+        'data/library_book_demo.xml',
+        'data/library_book_change_name_demo.xml',
     ],
     'support': 'support@garazd.biz',
     'application': False,
