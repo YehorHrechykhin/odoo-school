@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo noupdate="1">
+
+    <record id="library_book_category_novel" model="library.book.category" forcecreate="True">
+        <field name="name">Novel</field>
+    </record>
+
+    <record id="library_book_category_fantasy" model="library.book.category" forcecreate="True">
+        <field name="name">Fantasy</field>
+    </record>
+
+    <record id="library_book_category_science_fiction" model="library.book.category" forcecreate="True">
+        <field name="name">Science-fiction</field>
+    </record>
+
+</odoo>

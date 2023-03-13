@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo noupdate="1">
+
+    <record id="library_book_category_marusya_churay" model="library.book" forcecreate="True">
+        <field name="name">Marusya Churay</field>
+        <field name="reader_id" ref="res_partner_demo"/>
+        <field name="taken_date" eval="datetime.now()"/>
+        <field name="user_id" ref="base.user_demo"/>
+        <field name="active" eval="True"/>
+        <field name="category_id" ref="library_book_category_novel"/>
+    </record>
+
+     <record id="library_book_category_the_call_of_the_wild" model="library.book" forcecreate="True">
+        <field name="name">The Call of the Wild</field>
+        <field name="reader_id" ref="res_partner_demo"/>
+        <field name="taken_date" eval="datetime.now()"/>
+        <field name="user_id" ref="base.user_demo"/>
+        <field name="active" eval="True"/>
+        <field name="category_id" ref="library_book_category_novel"/>
+    </record>
+
+    <record id="library_book_category_20000_leagues_under_the_sea" model="library.book" forcecreate="True">
+        <field name="name">20 000 Leagues Under the Sea</field>
+        <field name="reader_id" ref="res_partner_demo"/>
+        <field name="taken_date" eval="datetime.now()"/>
+        <field name="user_id" ref="base.user_demo"/>
+        <field name="active" eval="True"/>
+        <field name="category_id" ref="library_book_category_science_fiction"/>
+    </record>
+
+</odoo>
